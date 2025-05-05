@@ -1,0 +1,63 @@
+[04-May-2025 17:58:43 UTC] PHP Warning:  mysqli_stmt::bind_param(): Number of variables doesn't match number of parameters in prepared statement in /home1/climaxne/school/register.php on line 82
+[04-May-2025 18:39:51 UTC] PHP Warning:  mysqli_stmt::bind_param(): Number of variables doesn't match number of parameters in prepared statement in /home1/climaxne/school/register.php on line 82
+[04-May-2025 18:49:26 UTC] PHP Warning:  main(): Couldn't fetch mysqli_stmt in /home1/climaxne/school/classes.php on line 66
+[04-May-2025 18:58:22 UTC] PHP Warning:  mysqli_stmt::bind_param(): Number of variables doesn't match number of parameters in prepared statement in /home1/climaxne/school/register.php on line 82
+[04-May-2025 19:01:42 UTC] Error adding class: Duplicate entry 'JSS 1' for key 'class_name'
+[04-May-2025 19:01:42 UTC] PHP Warning:  main(): Couldn't fetch mysqli_stmt in /home1/climaxne/school/classes.php on line 66
+[04-May-2025 19:01:52 UTC] Error adding class: Duplicate entry 'JSS 1' for key 'class_name'
+[04-May-2025 19:01:52 UTC] PHP Warning:  main(): Couldn't fetch mysqli_stmt in /home1/climaxne/school/classes.php on line 66
+[04-May-2025 19:04:06 UTC] Error adding class: Duplicate entry 'JSS 1' for key 'class_name'
+[04-May-2025 19:04:06 UTC] PHP Warning:  main(): Couldn't fetch mysqli_stmt in /home1/climaxne/school/classes.php on line 66
+[04-May-2025 19:04:26 UTC] PHP Warning:  main(): Couldn't fetch mysqli_stmt in /home1/climaxne/school/classes.php on line 66
+[04-May-2025 19:04:39 UTC] Error adding class: Duplicate entry 'JSS 1' for key 'class_name'
+[04-May-2025 19:04:39 UTC] PHP Warning:  main(): Couldn't fetch mysqli_stmt in /home1/climaxne/school/classes.php on line 66
+[04-May-2025 19:05:09 UTC] Error adding class: Duplicate entry 'JSS 1' for key 'class_name'
+[04-May-2025 19:05:09 UTC] PHP Warning:  main(): Couldn't fetch mysqli_stmt in /home1/climaxne/school/classes.php on line 66
+[04-May-2025 19:17:20 UTC] PHP Warning:  mysqli_stmt::bind_param(): Number of variables doesn't match number of parameters in prepared statement in /home1/climaxne/school/register.php on line 82
+[04-May-2025 19:18:53 UTC] PHP Warning:  mysqli_stmt::bind_param(): Number of variables doesn't match number of parameters in prepared statement in /home1/climaxne/school/register.php on line 82
+[04-May-2025 19:29:07 UTC] PHP Parse error:  syntax error, unexpected 'endif' (T_ENDIF) in /home1/climaxne/school/payments.php on line 496
+[04-May-2025 19:29:14 UTC] PHP Parse error:  syntax error, unexpected 'endif' (T_ENDIF) in /home1/climaxne/school/payments.php on line 496
+[04-May-2025 19:30:01 UTC] PHP Parse error:  syntax error, unexpected 'endif' (T_ENDIF) in /home1/climaxne/school/payments.php on line 496
+[04-May-2025 19:31:23 UTC] PHP Parse error:  syntax error, unexpected 'endif' (T_ENDIF) in /home1/climaxne/school/payments.php on line 496
+[04-May-2025 19:31:31 UTC] PHP Parse error:  syntax error, unexpected 'endif' (T_ENDIF) in /home1/climaxne/school/payments.php on line 496
+[04-May-2025 19:34:31 UTC] PHP Parse error:  syntax error, unexpected 'endif' (T_ENDIF) in /home1/climaxne/school/payments.php on line 537
+[04-May-2025 19:34:37 UTC] PHP Parse error:  syntax error, unexpected 'endif' (T_ENDIF) in /home1/climaxne/school/payments.php on line 537
+[04-May-2025 19:37:25 UTC] PHP Notice:  Undefined variable: preselected_student_id in /home1/climaxne/school/payments.php on line 423
+[04-May-2025 19:38:22 UTC] PHP Notice:  Undefined variable: preselected_student_id in /home1/climaxne/school/payments.php on line 423
+[04-May-2025 19:38:41 UTC] PHP Notice:  Undefined variable: preselected_student_id in /home1/climaxne/school/payments.php on line 423
+[04-May-2025 19:41:18 UTC] PHP Notice:  Undefined variable: current_page in /home1/climaxne/school/payments.php on line 271
+[04-May-2025 19:41:25 UTC] PHP Notice:  Undefined variable: current_page in /home1/climaxne/school/payments.php on line 271
+[04-May-2025 19:41:59 UTC] PHP Notice:  Undefined variable: current_page in /home1/climaxne/school/payments.php on line 271
+[04-May-2025 19:44:55 UTC] PHP Notice:  Undefined variable: current_page in /home1/climaxne/school/payments.php on line 271
+[04-May-2025 19:45:10 UTC] PHP Notice:  Undefined variable: current_page in /home1/climaxne/school/payments.php on line 271
+[04-May-2025 19:45:35 UTC] PHP Parse error:  syntax error, unexpected 'endif' (T_ENDIF) in /home1/climaxne/school/payments.php on line 515
+[04-May-2025 19:45:37 UTC] PHP Parse error:  syntax error, unexpected 'endif' (T_ENDIF) in /home1/climaxne/school/payments.php on line 515
+[04-May-2025 19:45:59 UTC] PHP Notice:  Undefined variable: current_page in /home1/climaxne/school/payments.php on line 271
+[04-May-2025 19:46:23 UTC] PHP Notice:  Undefined variable: current_page in /home1/climaxne/school/payments.php on line 271
+[04-May-2025 19:46:36 UTC] PHP Notice:  Undefined variable: current_page in /home1/climaxne/school/payments.php on line 271
+[04-May-2025 19:46:54 UTC] PHP Notice:  Undefined variable: current_page in /home1/climaxne/school/payments.php on line 271
+[04-May-2025 19:47:33 UTC] PHP Parse error:  syntax error, unexpected 'endif' (T_ENDIF) in /home1/climaxne/school/payments.php on line 515
+[04-May-2025 19:49:51 UTC] PHP Parse error:  syntax error, unexpected 'endif' (T_ENDIF) in /home1/climaxne/school/payments.php on line 528
+[04-May-2025 19:52:01 UTC] PHP Parse error:  syntax error, unexpected 'endif' (T_ENDIF) in /home1/climaxne/school/payments.php on line 538
+[04-May-2025 19:54:17 UTC] PHP Parse error:  syntax error, unexpected 'endif' (T_ENDIF) in /home1/climaxne/school/payments.php on line 539
+[04-May-2025 19:54:19 UTC] PHP Parse error:  syntax error, unexpected 'endif' (T_ENDIF) in /home1/climaxne/school/payments.php on line 539
+[04-May-2025 20:09:46 UTC] PHP Warning:  require_once(vendor/autoload.php): failed to open stream: No such file or directory in /home1/climaxne/school/download_report.php on line 8
+[04-May-2025 20:09:46 UTC] PHP Fatal error:  require_once(): Failed opening required 'vendor/autoload.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home1/climaxne/school/download_report.php on line 8
+[04-May-2025 20:09:49 UTC] PHP Warning:  require_once(vendor/autoload.php): failed to open stream: No such file or directory in /home1/climaxne/school/download_report.php on line 8
+[04-May-2025 20:09:49 UTC] PHP Fatal error:  require_once(): Failed opening required 'vendor/autoload.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home1/climaxne/school/download_report.php on line 8
+[04-May-2025 20:19:08 UTC] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home1/climaxne/school/profile.php on line 473
+[04-May-2025 20:21:47 UTC] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home1/climaxne/school/profile.php on line 473
+[04-May-2025 20:21:50 UTC] PHP Parse error:  syntax error, unexpected 'the' (T_STRING), expecting '[' in /home1/climaxne/school/download_transactions.php on line 82
+[04-May-2025 20:21:52 UTC] PHP Parse error:  syntax error, unexpected 'the' (T_STRING), expecting '[' in /home1/climaxne/school/download_transactions.php on line 82
+[04-May-2025 20:21:57 UTC] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home1/climaxne/school/profile.php on line 473
+[04-May-2025 20:22:00 UTC] PHP Parse error:  syntax error, unexpected 'the' (T_STRING), expecting '[' in /home1/climaxne/school/download_transactions.php on line 82
+[04-May-2025 20:22:40 UTC] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home1/climaxne/school/profile.php on line 473
+[04-May-2025 20:22:43 UTC] PHP Parse error:  syntax error, unexpected 'the' (T_STRING), expecting '[' in /home1/climaxne/school/download_transactions.php on line 82
+[04-May-2025 20:24:14 UTC] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home1/climaxne/school/profile.php on line 473
+[04-May-2025 20:24:16 UTC] PHP Parse error:  syntax error, unexpected ')' in /home1/climaxne/school/download_transactions.php on line 121
+[04-May-2025 20:25:38 UTC] PHP Parse error:  syntax error, unexpected ')' in /home1/climaxne/school/download_transactions.php on line 121
+[04-May-2025 20:25:55 UTC] PHP Parse error:  syntax error, unexpected ')' in /home1/climaxne/school/download_transactions.php on line 121
+[04-May-2025 20:32:52 UTC] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home1/climaxne/school/profile.php on line 473
+[04-May-2025 20:32:59 UTC] PHP Parse error:  syntax error, unexpected 'the' (T_STRING), expecting '[' in /home1/climaxne/school/download_transactions.php on line 132
+[04-May-2025 20:36:37 UTC] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home1/climaxne/school/profile.php on line 473
+[04-May-2025 21:17:30 UTC] PHP Warning:  mysqli_stmt::close(): Couldn't fetch mysqli_stmt in /home1/climaxne/school/view_class.php on line 97

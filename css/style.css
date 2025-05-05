@@ -1,0 +1,218 @@
+/* css/style.css */
+
+/* Basic body styling */
+body {
+    font-family: 'Arial', sans-serif; /* Use a clean font */
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f7f6; /* Light subtle background */
+    padding-top: 60px; /* Space for fixed navbar if needed */
+    padding-bottom: 40px; /* Space for footer */
+}
+
+/* Container adjustments */
+.container {
+    /* Bootstrap's .container has padding already, maybe adjust max-width if needed */
+    /* max-width: 1200px; */
+}
+
+/* Navbar styling (adjust as needed) */
+.navbar {
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05); /* Subtle shadow */
+    /* background-color: #ffffff !important; /* Ensure white background */
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: #007bff !important; /* Brand color */
+}
+
+.navbar-nav .nav-link {
+     color: #555;
+     transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #007bff; /* Highlight on hover */
+}
+
+
+/* Card Styling */
+.card {
+    border: none; /* Remove default border */
+    border-radius: 0.75rem; /* More rounded corners */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.08); /* Stronger shadow for depth */
+    margin-bottom: 20px; /* Space between cards */
+}
+
+.card-header {
+    background-color: #f8f9fa; /* Light header background */
+    border-bottom: 1px solid rgba(0,0,0,.125); /* Add a border */
+    font-weight: bold;
+    border-top-left-radius: 0.75rem; /* Match card border radius */
+    border-top-right-radius: 0.75rem;
+}
+
+.card-body {
+    padding: 20px; /* More padding inside body */
+}
+
+
+/* Dashboard Specifics */
+.dashboard .card {
+    text-align: center;
+}
+
+.dashboard .card .card-text.display-4 {
+    font-size: 2.8rem; /* Slightly larger */
+    font-weight: 600; /* Bolder numbers */
+    margin-bottom: 0.5rem;
+}
+
+.dashboard .card h5 {
+    font-size: 1.1rem;
+    color: rgba(255,255,255,0.8); /* Lighter text for contrast on colored cards */
+     margin-bottom: 1rem;
+}
+
+/* Specific card colors (adjust Bootstrap's default) */
+.card.bg-success { background-color: #28a745 !important; }
+.card.bg-danger { background-color: #dc3545 !important; }
+.card.bg-primary { background-color: #007bff !important; }
+.card.bg-info { background-color: #17a2b8 !important; }
+.card.bg-warning { background-color: #ffc107 !important; color: #212529 !important; } /* Ensure text is readable on yellow */
+
+/* Tables */
+.table {
+    margin-top: 20px;
+    border-radius: 0.5rem; /* Slightly rounded table corners */
+    overflow: hidden; /* Needed for rounded corners on tables */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.table th {
+    background-color: #e9ecef; /* Light header background */
+    border-bottom-width: 2px;
+}
+
+/* Forms */
+.form-control {
+    border-radius: 0.5rem; /* Rounded form inputs */
+}
+
+.btn {
+    border-radius: 0.5rem; /* Rounded buttons */
+    padding: 0.75rem 1rem; /* Slightly larger padding for buttons */
+    font-size: 1rem;
+}
+
+/* Footer Styling */
+footer {
+    margin-top: 40px;
+    padding: 20px 0;
+    background-color: #e9ecef; /* Light grey footer */
+    color: #555;
+    text-align: center;
+    /* If using position: fixed in header.php, uncomment these: */
+    /* position: fixed; */
+    /* bottom: 0; */
+    /* width: 100%; */
+}
+
+/* Receipt specific styles (from print_receipt.php and print_expense_receipt.php) */
+.receipt-container {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 30px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 0.75rem;
+}
+.receipt-header {
+    text-align: center;
+    margin-bottom: 30px;
+    border-bottom: 2px dashed #ccc;
+    padding-bottom: 20px;
+}
+.receipt-header h2 {
+    margin: 0;
+    color: #007bff; /* Or use a specific color */
+}
+.receipt-details {
+    margin-bottom: 30px;
+}
+.receipt-details div {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+ .receipt-details div strong {
+     flex-basis: 150px; /* Align labels */
+     flex-shrink: 0;
+     margin-right: 10px; /* Space between label and value */
+ }
+.amount-paid, .amount {
+    font-size: 1.8em; /* Slightly larger */
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px dashed #ccc;
+    background-color: #e9ffe9; /* Light green background for income */
+    color: #28a745;
+}
+.amount { /* Specific for expenses */
+     background-color: #ffe9e9; /* Light red background for expenses */
+     color: #dc3545;
+}
+
+.total-summary {
+    border-top: 1px dashed #ccc;
+    padding-top: 20px;
+    margin-top: 20px;
+}
+ .total-summary div {
+     margin-bottom: 10px;
+     display: flex;
+     justify-content: space-between;
+ }
+ .total-summary div strong {
+      flex-basis: 150px; /* Align labels */
+     flex-shrink: 0;
+      margin-right: 10px;
+ }
+
+.footer-notes {
+    margin-top: 30px;
+    font-size: 0.9em;
+    color: #666;
+    text-align: center;
+    border-top: 1px dashed #ccc;
+    padding-top: 20px;
+}
+
+/* Print styles for receipts */
+@media print {
+    body {
+        background-color: #fff;
+        margin: 0;
+        padding: 0;
+    }
+    .receipt-container {
+         max-width: 100%;
+         margin: 0;
+         padding: 0;
+         border: none;
+         box-shadow: none;
+         page-break-after: always; /* Start new page for each receipt if printing multiple */
+    }
+     .no-print {
+         display: none !important;
+     }
+     /* Adjust print margins if needed */
+     /* @page { margin: 1cm; } */
+}
+
+
+/* Add more custom styles here for other elements like buttons, forms, etc. */
